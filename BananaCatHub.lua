@@ -343,7 +343,7 @@ function AutoFarm()
                                 repeat wait()
                                     a = 2
                                     local args = {
-                                        [1] = "TravelDressrosa" -- OLD WORLD to NEW WORLD
+                                        [1] = "TravelDressrosa" -- Sea 1 to Sea 2
                                     }
                                     game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
                                 until a == 1
