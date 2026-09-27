@@ -1706,7 +1706,7 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
 end)
 local A =
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/zzzz.lua"))()
-Main = A.CreateMain({ Title = "Blox Fruit", Desc = " - Blox Fruit (by Shigaraki)" })
+Main = A.CreateMain({ Title = "Blox Fruit", Desc = " - Blox Fruit by Shigaraki" })
 
 -- ============================================================================
 -- PASS 30 - GUARANTEED TAB REGISTRY
